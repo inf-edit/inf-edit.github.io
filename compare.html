@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <!-- HTML Meta Tags -->
+  <title>Inversion-Free Image Editing with Natural Language</title>
+  <meta name="description" content="Inversion-Free Image Editing with Natural Language">
+
+  <!-- Facebook Meta Tags -->
+  <!-- <meta property="og:url" content="https://rich-text-to-image.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Expressive Text-to-Image Generation with Rich Text">
+  <meta property="og:description" content="Expressive Text-to-Image Generation with Rich Text">
+  <meta property="og:image" content="https://rich-text-to-image.github.io/image_assets/preview.jpg"> -->
+
+  <!-- Twitter Meta Tags -->
+  <!-- <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="rich-text-to-image.github.io">
+  <meta property="twitter:url" content="https://rich-text-to-image.github.io/">
+  <meta name="twitter:title" content="Expressive Text-to-Image Generation with Rich Text">
+  <meta name="twitter:description" content="Expressive Text-to-Image Generation with Rich Text">
+  <meta name="twitter:image" content="https://rich-text-to-image.github.io/image_assets/preview.jpg"> -->
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async="" src="./assets/js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-9VZKE74FPW');
+  </script>
+  <title>Expressive Text-to-Image Generation with Rich Text</title>
+
+  <link href="./assets/css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css/tab_gallery.css">
+  <!-- <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css"> -->
+  <link rel="stylesheet" href="./assets/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/juxtapose.css">
+  <link rel="stylesheet" href="./assets/css/image_card_fader.css">
+  <link rel="stylesheet" href="./assets/css/image_card_slider.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Sofia ' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=VT323 ' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair Display ' rel='stylesheet'>
+
+</head>
+
+
+
+<body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Inversion-Free Image Editing <br> with Natural Language</h1>
+            <!-- <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://songweige.github.io/">Songwei Ge</a><sup>&#128034;</sup>&nbsp</span>
+              <span class="author-block">
+                <a href="https://taesung.me/">Taesung Park</a><sup><img
+                    src="assets/icons/Adobe_Corporate_Horizontal_Red_HEX.svg" width="14" /></sup>&nbsp
+              </span>
+              <span class="author-block">
+                <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a><sup><img
+                    src="assets/icons/cmu-scotty-icon.png" width="14" /></sup>&nbsp</span>
+              <span class="author-block">
+                <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a><sup>&#128034;</sup>&nbsp
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>&#128034;</sup>University of Maryland, College Park &nbsp</span>
+              <span class="author-block"><sup><img src="assets/icons/Adobe_Corporate_Horizontal_Red_HEX.svg"
+                    width="14" /></sup>Adobe Research &nbsp</span>
+              <span class="author-block"><sup><img src="assets/icons/cmu-scotty-icon.png" width="14" /></sup>Carnegie
+                Mellon University</span>
+            </div> -->
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Anonymous Authors</span> 
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="./index.html" class="external-link button is-normal is-rounded is-dark">
+                    <span>Main</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="./method.html" class="external-link button is-normal is-rounded is-dark">
+                    <span>Method</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="./gallery.html" class="external-link button is-normal is-rounded is-dark">
+                    <span>Gallery</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+
+    <!--/ Matting. -->
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-4 has-text-centered">Denoising Diffusion Consistent Models</h2>
+          <div class="content has-text-justified">
+            <h4>
+              Comparison with existing methods:
+            </h4>
+          </div>
+          <div class="content has-text-centered">
+            <img src="./image_assets/compare/Appendix1MoreCompare_00.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_01.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_02.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_03.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_04.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_05.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_06.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_07.png" width="150%">
+            <img src="./image_assets/compare/Appendix1MoreCompare_08.png" width="150%">
+            <img src="./image_assets/compare/Appendix5img2img_00.png" width="150%">
+            <img src="./image_assets/compare/Appendix5img2img_01.png" width="150%">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title"><a id="bibtex">BibTeX</a></h2>
+      <pre><code>@</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website adapted from the following <a href="https://github.com/nerfies/nerfies.github.io">source code</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script type="text/javascript">
+    var currentMethodList = ['ours', 'plain', 'full', 'aae', 'ip2p', 'p2p'];
+    var currentMethod = "ours";
+
+    function ChangeMethod(idx) {
+      var li_list = document.getElementById("method-view-ul").children;
+      for (i = 0; i < li_list.length; i++) {
+        li_list[i].className = "nav-link";
+      }
+      li_list[idx].className = "nav-link active";
+      currentMethod = currentMethodList[idx];
+
+      var image_livingroom = document.getElementById('image_livingroom');
+      var image_cityscape = document.getElementById('image_cityscape');
+      image_livingroom.src = "./image_assets/footnote/livingroom/livingroom_" + currentMethod + ".jpg";
+      image_cityscape.src = "./image_assets/footnote/cityscape/cityscape_" + currentMethod + ".jpg";
+    }
+    function ChangePrompt(idx) {
+      var li_list = document.getElementById("prompt-view-ul").children;
+      for (i = 0; i < li_list.length; i++) {
+        li_list[i].className = "nav-link";
+      }
+      li_list[idx].className = "nav-link active";
+      var div_livingroom = document.getElementById('div_livingroom');
+      var div_cityscape = document.getElementById('div_cityscape');
+      if (idx == 0) {
+        div_livingroom.style.display = "";
+        div_cityscape.style.display = "none";
+      } else {
+        div_livingroom.style.display = "none";
+        div_cityscape.style.display = "";
+      }
+    }
+  </script>
+
+  <script src="./assets/js/juxtapose.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script defer="" src="./assets/js/fontawesome.all.min.js"></script>
+  <script src="./assets/js/bulma-carousel.min.js"></script>
+  <script src="./assets/js/bulma-slider.min.js"></script>
+  <script src="./assets/js/magnifier.js"></script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
