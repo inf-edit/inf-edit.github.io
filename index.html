@@ -2,341 +2,303 @@
 <html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <!-- HTML Meta Tags -->
-  <title>Inversion-Free Image Editing with Natural Language</title>
-  <meta name="description" content="Inversion-Free Image Editing with Natural Language">
+    <!-- HTML Meta Tags -->
+    <title>Inversion-Free Image Editing with Natural Language</title>
+    <meta name="description" content="Inversion-Free Image Editing with Natural Language">
 
   <!-- Facebook Meta Tags -->
-  <!-- <meta property="og:url" content="https://InfEdit-to-image.github.io/">
+  <meta property="og:url" content="https://sled-group.github.io/InfEdit/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Expressive Text-to-Image Generation with Rich Text">
-  <meta property="og:description" content="Expressive Text-to-Image Generation with Rich Text">
-  <meta property="og:image" content="https://InfEdit-to-image.github.io/image_assets/preview.jpg"> -->
+  <meta property="og:title" content="Inversion-Free Image Editing with Natural Language">
+  <meta property="og:description" content="Inversion-Free Image Editing with Natural Language">
+  <meta property="og:image" content="https://sled-group.github.io/InfEdit/image_assets/preview.png">
 
   <!-- Twitter Meta Tags -->
-  <!-- <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="InfEdit-to-image.github.io">
-  <meta property="twitter:url" content="https://InfEdit-to-image.github.io/">
-  <meta name="twitter:title" content="Expressive Text-to-Image Generation with Rich Text">
-  <meta name="twitter:description" content="Expressive Text-to-Image Generation with Rich Text">
-  <meta name="twitter:image" content="https://InfEdit-to-image.github.io/image_assets/preview.jpg"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="sled-group.github.io">
+  <meta property="twitter:url" content="https://sled-group.github.io/InfEdit/">
+  <meta name="twitter:title" content="Inversion-Free Image Editing with Natural Language">
+  <meta name="twitter:description" content="Inversion-Free Image Editing with Natural Language">
+  <meta name="twitter:image" content="https://sled-group.github.io/InfEdit/image_assets/preview.png">
 
 
-  <!-- Google tag (gtag.js) -->
-  <script async="" src="./assets/js"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="./assets/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-9VZKE74FPW');
-  </script>
-  <title>Expressive Text-to-Image Generation with Rich Text</title>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  <link href="./assets/css" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./assets/css/bulma.min.css">
-  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./assets/css/tab_gallery.css">
-  <!-- <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css"> -->
-  <link rel="stylesheet" href="./assets/css/academicons.min.css">
-  <link rel="stylesheet" href="./assets/css/index.css">
-  <link rel="stylesheet" href="./assets/css/juxtapose.css">
-  <link rel="stylesheet" href="./assets/css/image_card_fader.css">
-  <link rel="stylesheet" href="./assets/css/image_card_slider.css">
+        gtag('config', 'G-9VZKE74FPW');
+    </script>
+    <title>Inversion-Free Image Editing with Natural Language</title>
 
-  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Sofia ' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=VT323 ' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Playfair Display ' rel='stylesheet'>
+    <link href="./assets/css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./assets/css/tab_gallery.css">
+    <!-- <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css"> -->
+    <link rel="stylesheet" href="./assets/css/academicons.min.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/juxtapose.css">
+    <link rel="stylesheet" href="./assets/css/image_card_fader.css">
+    <link rel="stylesheet" href="./assets/css/image_card_slider.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia ' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=VT323 ' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display ' rel='stylesheet'>
 
 </head>
 
 
 
 <body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-2 publication-title">Inversion-Free Image Editing <br> with Natural Language</h1>
-            <!-- <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                <a href="https://songweige.github.io/">Songwei Ge</a><sup>&#128034;</sup>&nbsp</span>
-              <span class="author-block">
-                <a href="https://taesung.me/">Taesung Park</a><sup><img
-                    src="assets/icons/Adobe_Corporate_Horizontal_Red_HEX.svg" width="14" /></sup>&nbsp
-              </span>
-              <span class="author-block">
-                <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a><sup><img
-                    src="assets/icons/cmu-scotty-icon.png" width="14" /></sup>&nbsp</span>
-              <span class="author-block">
-                <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a><sup>&#128034;</sup>&nbsp
-              </span>
-            </div>
-
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>&#128034;</sup>University of Maryland, College Park &nbsp</span>
-              <span class="author-block"><sup><img src="assets/icons/Adobe_Corporate_Horizontal_Red_HEX.svg"
-                    width="14" /></sup>Adobe Research &nbsp</span>
-              <span class="author-block"><sup><img src="assets/icons/cmu-scotty-icon.png" width="14" /></sup>Carnegie
-                Mellon University</span>
-            </div> -->
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">Anonymous Authors</span> 
-            </div>
-
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                <span class="link-block">
-                  <a href="./method.html" class="external-link button is-normal is-rounded is-dark">
-                    <span>Method</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="./compare.html" class="external-link button is-normal is-rounded is-dark">
-                    <span>Compare</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="./gallery.html" class="external-link button is-normal is-rounded is-dark">
-                    <span>Gallery</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="has-text-justified">
-          <!-- <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">Inversion-Free Image Editing <br> with Natural Language</h1>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">Anonymous Authors</span> 
+                          </div>
+                <div class="has-text-centered">
+                    <img src="./image_assets/infedit_gif.gif" width="100%">
+                    <!-- <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
             <source src="./video_assets/workflow_demo.mp4" type="video/mp4">
           </video> -->
-          <!-- <iframe width="960" height="540" src="https://www.youtube.com/embed/ihDbAUh0LXk?si=ASIzJd_Q2Tq1pwjq" 
+                    <!-- <iframe width="960" height="540" src="https://www.youtube.com/embed/ihDbAUh0LXk?si=ASIzJd_Q2Tq1pwjq" 
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                </div>
+                <div class="column has-text-centered", id="blocks">
+                    <div class="publication-links">
+                    <span class="link-block">
+                        <a href="./method.html#blocks" class="external-link button is-normal is-rounded is-dark">
+                            <span>Method</span>
+                        </a>
+                        </span>
+                        <span class="link-block">
+                        <a href="./compare.html#blocks" class="external-link button is-normal is-rounded is-dark">
+                            <span>Compare</span>
+                        </a>
+                        </span>
+                        <span class="link-block">
+                        <a href="./gallery.html#blocks" class="external-link button is-normal is-rounded is-dark">
+                            <span>Gallery</span>
+                        </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="hero is-light is-small">
-    <div class="hero-body">
-      <div class="container is-max-desktop has-text-centered">
-        <!-- <h2 class="title is-3">InfEdit-to-image Generation</h2> -->
-        <div class="has-text-justified">
-          <p>
-            Despite recent advances,  diffusion models often fail to achieve consistent results in image manipulation due to unintended semantic changes.
-            They also face an efficiency bottleneck, as many attention-based methods require image inversion and a larger number of denoising steps. 
-            To address these challenges, we make an attempt to eliminate the inversion process and introduce Denoising Diffusion Consistent Model (DDCM), a sampling strategy that enables virtual inversion. 
-            DDCM leverages a diffusion process that significantly enhances consistency throughout the image generation phases, ensuring fidelity and speed in transforming and refining visual content. 
-            We present Unified Attention Control (UAC) for tuning-free image editing through natural language that integrates cross-attention and self-attention control within a unified framework. 
-            Combining them, we present an inversion-free editing (InfEdit) method that allows for consistent editing at both the semantic and spatial levels, catering to intricate modifications without compromising on the image's integrity and explicit inversion. 
-            Through extensive experiments, InfEdit shows strong performance in complex editing tasks and also maintains a seamless workflow (about 1 second on one A40), demonstrating the potential for real-time applications.
-          </p>
-          <br>
+    </section>
+    <section class="hero is-light is-small">
+        <div class="hero-body">
+            <div class="container is-max-desktop has-text-centered">
+                <!-- <h2 class="title is-3">InfEdit-to-image Generation</h2> -->
+                <div class="has-text-justified">
+                    <p>
+                        We present an <b>inversion-free editing (InfEdit)</b> method that allows for consistent editing at both the semantic and spatial levels, 
+                        catering to intricate modifications without compromising on the image's integrity and explicit inversion. 
+                        Through extensive experiments, InfEdit shows strong performance in complex editing tasks and also maintains a seamless workflow (less than 3 seconds on one A40), 
+                        demonstrating the potential for real-time applications.
+                    </p>
+                    <br>
+                </div>
+                <!-- row 1 -->
+                <div class="columns is-centered">
+                    <div class="column">
+                        <div class="content">
+                            <div class="tab_container">
+                                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
+                                    <div class="jx-slider">
+                                        <div class="jx-handle " style="left: 54.53%;">
+                                            <div class="jx-arrow jx-left"></div>
+                                            <div class="jx-control">
+                                                <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="jx-arrow jx-right"></div>
+                                        </div>
+                                        <div class="jx-image jx-left " style="width: 54.53%;">
+                                            <img src="./image_assets/teaser/214000000000.jpg" alt="" data-label="Source">
+                                        </div>
+                                        <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/teaser/214000000000InfEdit.jpg" alt="" data-label="InfEdit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="has-text-justified">
+                            <p style="text-align: center;">
+                                A painting of a waterfall <br>
+                                <strong style="font-size: larger;">[+and angels]</strong> in the mountains
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <div class="tab_container">
+                                <div id="juxtapose-embed2" data-startingposition="30%" data-animate="true" class="juxtapose">
+                                    <div class="jx-slider">
+                                        <div class="jx-handle " style="left: 54.53%;">
+                                            <div class="jx-arrow jx-left"></div>
+                                            <div class="jx-control">
+                                                <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="jx-arrow jx-right"></div>
+                                        </div>
+                                        <div class="jx-image jx-left " style="width: 54.53%;"><img src="./image_assets/teaser/222000000001.jpg" alt="" data-label="Source">
+                                        </div>
+                                        <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/teaser/222000000001InfEdit.jpg" alt="" data-label="InfEdit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="has-text-justified">
+                            <p style="text-align: center;">
+                                A woman in a coat<br>
+                                <strong style="font-size: larger;">[+and dress]</strong> is dancing
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <div class="tab_container">
+                                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
+                                    <div class="jx-slider">
+                                        <div class="jx-handle " style="left: 54.53%;">
+                                            <div class="jx-arrow jx-left"></div>
+                                            <div class="jx-control">
+                                                <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="jx-arrow jx-right"></div>
+                                        </div>
+                                        <div class="jx-image jx-left " style="width: 54.53%;">
+                                            <img src="./image_assets/teaser/511000000002.jpg" alt="" data-label="Source">
+                                        </div>
+                                        <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/teaser/511000000002infedit.png" alt="" data-label="InfEdit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="has-text-justified">
+                            <p style="text-align: center;">
+                                A light brown bear <br><s>sitting</s> <strong style="font-size: larger;">standing</strong> on the ground
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 2 -->
+                <div class="columns is-centered">
+                    <div class="column">
+                        <div class="content">
+                            <div class="tab_container">
+                                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
+                                    <div class="jx-slider">
+                                        <div class="jx-handle " style="left: 54.53%;">
+                                            <div class="jx-arrow jx-left"></div>
+                                            <div class="jx-control">
+                                                <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="jx-arrow jx-right"></div>
+                                        </div>
+                                        <div class="jx-image jx-left " style="width: 54.53%;">
+                                            <img src="./image_assets/teaser/622000000001.jpg" alt="" data-label="Source">
+                                        </div>
+                                        <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/teaser/622000000001InfEdit.jpg" alt="" data-label="InfEdit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="has-text-justified">
+                            <p style="text-align: center;">
+                                A woman in a <s>white</s> <strong style="font-size: larger; color:rgb(255, 111, 111);">red</strong> <br> dress sitting on a chair with flowers
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <div class="tab_container">
+                                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
+                                    <div class="jx-slider">
+                                        <div class="jx-handle " style="left: 54.53%;">
+                                            <div class="jx-arrow jx-left"></div>
+                                            <div class="jx-control">
+                                                <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="jx-arrow jx-right"></div>
+                                        </div>
+                                        <div class="jx-image jx-left " style="width: 54.53%;">
+                                            <img src="./image_assets/teaser/812000000000.jpg" alt="" data-label="Source">
+                                        </div>
+                                        <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/teaser/812000000000InfEdit.jpg" alt="" data-label="InfEdit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="has-text-justified">
+                            <p style="text-align: center;">
+                                A man in a white shirt standing in front of <s>trees</s> <strong style="font-size: larger;">mountains</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <div class="tab_container">
+                                <div id="juxtapose-embed2" data-startingposition="30%" data-animate="true" class="juxtapose">
+                                    <div class="jx-slider">
+                                        <div class="jx-handle " style="left: 54.53%;">
+                                            <div class="jx-arrow jx-left"></div>
+                                            <div class="jx-control">
+                                                <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <div class="jx-arrow jx-right"></div>
+                                        </div>
+                                        <div class="jx-image jx-left " style="width: 54.53%;"><img src="./image_assets/teaser/924000000001.jpg" alt="" data-label="Source">
+                                        </div>
+                                        <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/teaser/924000000001InfEdit.jpg" alt="" data-label="InfEdit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="has-text-justified">
+                            <p style="text-align: center;">
+                            <strong style="font-size: larger;">[+Oil painting of]</strong> a lake with mountains in the background
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- row 1 -->
-        <div class="columns is-centered">
-          <div class="column">
-            <div class="content">
-              <div class="tab_container">
-                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
-                  <div class="jx-slider">
-                    <div class="jx-handle " style="left: 54.53%;">
-                      <div class="jx-arrow jx-left"></div>
-                      <div class="jx-control">
-                        <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
-                          aria-valuemax="100"></div>
-                      </div>
-                      <div class="jx-arrow jx-right"></div>
-                    </div>
-                    <div class="jx-image jx-left " style="width: 54.53%;">
-                      <img src="./image_assets/teaser/214000000000.jpg" alt="" data-label="Source">
-                    </div>
-                    <div class="jx-image jx-right " style="width: 45.47%;"><img
-                        src="./image_assets/teaser/214000000000InfEdit.jpg" alt="" data-label="InfEdit">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="has-text-justified">
-              <p style="text-align: center;">
-                A painting of a waterfall <br>
-                <strong style="font-size: larger;">[+and angels]</strong> 
-                in the mountains
-              </p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <div class="tab_container">
-                <div id="juxtapose-embed2" data-startingposition="30%" data-animate="true" class="juxtapose">
-                  <div class="jx-slider">
-                    <div class="jx-handle " style="left: 54.53%;">
-                      <div class="jx-arrow jx-left"></div>
-                      <div class="jx-control">
-                        <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
-                          aria-valuemax="100"></div>
-                      </div>
-                      <div class="jx-arrow jx-right"></div>
-                    </div>
-                    <div class="jx-image jx-left " style="width: 54.53%;"><img
-                        src="./image_assets/teaser/222000000001.jpg" alt="" data-label="Source">
-                    </div>
-                    <div class="jx-image jx-right " style="width: 45.47%;"><img
-                        src="./image_assets/teaser/222000000001InfEdit.jpg" alt="" data-label="InfEdit">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="has-text-justified">
-              <p style="text-align: center;">
-                A woman in a coat<br>
-                <strong style="font-size: larger;">[+and dress]</strong>
-                is dancing
-              </p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <div class="tab_container">
-                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
-                  <div class="jx-slider">
-                    <div class="jx-handle " style="left: 54.53%;">
-                      <div class="jx-arrow jx-left"></div>
-                      <div class="jx-control">
-                        <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
-                          aria-valuemax="100"></div>
-                      </div>
-                      <div class="jx-arrow jx-right"></div>
-                    </div>
-                    <div class="jx-image jx-left " style="width: 54.53%;">
-                      <img src="./image_assets/teaser/511000000002.jpg" alt="" data-label="Source">
-                    </div>
-                    <div class="jx-image jx-right " style="width: 45.47%;"><img
-                        src="./image_assets/teaser/511000000002infedit.png" alt="" data-label="InfEdit">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="has-text-justified">
-              <p style="text-align: center;">
-                A light brown bear <br><s>sitting</s> <strong style="font-size: larger;">standing</strong> on the ground
-              </p>              
-            </div>
-          </div>
         </div>
-        <!-- row 2 -->
-        <div class="columns is-centered">
-          <div class="column">
-            <div class="content">
-              <div class="tab_container">
-                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
-                  <div class="jx-slider">
-                    <div class="jx-handle " style="left: 54.53%;">
-                      <div class="jx-arrow jx-left"></div>
-                      <div class="jx-control">
-                        <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
-                          aria-valuemax="100"></div>
-                      </div>
-                      <div class="jx-arrow jx-right"></div>
-                    </div>
-                    <div class="jx-image jx-left " style="width: 54.53%;">
-                      <img src="./image_assets/teaser/622000000001.jpg" alt="" data-label="Source">
-                    </div>
-                    <div class="jx-image jx-right " style="width: 45.47%;"><img src="./image_assets/teaser/622000000001InfEdit.jpg"
-                        alt="" data-label="InfEdit">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="has-text-justified">
-              <p style="text-align: center;">
-                A woman in a <s>white</s> <strong style="font-size: larger; color:rgb(255, 111, 111);">red</strong> <br> dress sitting on a chair with flowers
-              </p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <div class="tab_container">
-                <div id="juxtapose-embed1" data-startingposition="30%" data-animate="true" class="juxtapose">
-                  <div class="jx-slider">
-                    <div class="jx-handle " style="left: 54.53%;">
-                      <div class="jx-arrow jx-left"></div>
-                      <div class="jx-control">
-                        <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
-                          aria-valuemax="100"></div>
-                      </div>
-                      <div class="jx-arrow jx-right"></div>
-                    </div>
-                    <div class="jx-image jx-left " style="width: 54.53%;">
-                      <img src="./image_assets/teaser/812000000000.jpg" alt="" data-label="Source">
-                    </div>
-                    <div class="jx-image jx-right " style="width: 45.47%;"><img
-                        src="./image_assets/teaser/812000000000InfEdit.jpg" alt="" data-label="InfEdit">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="has-text-justified">
-              <p style="text-align: center;">
-                A man in a white shirt standing in front of <s>trees</s> <strong style="font-size: larger;">mountains</strong>
-              </p>  
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <div class="tab_container">
-                <div id="juxtapose-embed2" data-startingposition="30%" data-animate="true" class="juxtapose">
-                  <div class="jx-slider">
-                    <div class="jx-handle " style="left: 54.53%;">
-                      <div class="jx-arrow jx-left"></div>
-                      <div class="jx-control">
-                        <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"
-                          aria-valuemax="100"></div>
-                      </div>
-                      <div class="jx-arrow jx-right"></div>
-                    </div>
-                    <div class="jx-image jx-left " style="width: 54.53%;"><img
-                        src="./image_assets/teaser/924000000001.jpg" alt="" data-label="Source">
-                    </div>
-                    <div class="jx-image jx-right " style="width: 45.47%;"><img
-                        src="./image_assets/teaser/924000000001InfEdit.jpg" alt="" data-label="InfEdit">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="has-text-justified">
-              <strong style="font-size: larger;">[+Oil painting of]</strong> a lake with mountains in the background
-            </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
+    <section class="section">
 
-    <!--/ Matting. -->
-    <div class="container is-max-desktop">
+        <!--/ Matting. -->
+        <div class="container is-max-desktop">
 
-      <!-- color -->
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <!-- <h2 class="title is-4 has-text-centered"><span style="color: #CD66FF;">F</span><span
+            <h2 class="title is-3 has-text-centered">Experiments</h2>
+            <!-- color -->
+            <div class="columns is-centered">
+                <div class="column is-full-width">
+                    <!-- <h2 class="title is-4 has-text-centered"><span style="color: #CD66FF;">F</span><span
               style="color: #FF6599;">o</span><span style="color: #FF0000;">n</span><span
               style="color: #FF8E00;">t</span> <span style="color: #f2f211;">c</span><span
               style="color: #008E00;">o</span><span style="color: #00C0C0;">l</span><span
@@ -345,168 +307,106 @@
           <div class="content has-text-centered">
             <img src="./image_assets/color_tri.png" width="150%">
           </div> -->
-          <div class="content has-text-justified">
-            <h4>
-              InfEdit in various complex image editing tasks:
-            </h4>
-          </div>
-          <div class="content has-text-centered">
-            <img src="./image_assets/teaser (1)_00.png" width="150%">
-            <span class="link-block">
+                    <div class="content has-text-justified">
+                        <h4>
+                            InfEdit in various complex image editing tasks:
+                        </h4>
+                    </div>
+                    <div class="content has-text-centered">
+                        <img src="./image_assets/teaser (1)_00.png" width="150%">
+                        <span class="link-block">
               <a href="./gallery.html" class="external-link button is-normal is-rounded is-dark">
                 <span>Gallery</span>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-      <!-- /color -->
-      <hr>
-      <!-- style -->
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <h2 class="title is-4 has-text-centered">Comparison</h2>
-          <div class="content has-text-justified">
-            <h4>
-              Comparison with inversion-base methods:
-            </h4>
-          </div>
-          <div class="content has-text-centered">
-            <img src="./image_assets/compare-inversion_00.png" width="150%">
-            <img src="./image_assets/compare-table.png" width="150%">
-          </div>
-          <div class="content has-text-justified">
-            <h4>
-              Comparison with existing methods:
-            </h4>
-          </div>
-          <div class="content has-text-centered">
-            <img src="./image_assets/compare-edit_00.png" width="150%">
-            <p class="has-text-centered">
-              placeholder
-            </p>
-            <span class="link-block">
+                        </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- /color -->
+            <hr>
+            <!-- style -->
+            <div class="columns is-centered">
+                <div class="column is-full-width">
+                    <h2 class="title is-4 has-text-centered">Comparison</h2>
+                    <div class="content has-text-justified">
+                        <h4>
+                            Comparison with inversion-base methods:
+                        </h4>
+                    </div>
+                    <div class="content has-text-centered">
+                        <img src="./image_assets/compare-inversion_00.png" width="150%">
+                        <p class="has-text-centered">
+                            Performance in image editing: DDCM matches or exceeds other algorithms, with LCM and UAC bringing further improvement. Notably, it runs about an order of magnitude faster.
+                        </p>
+                        <img src="./image_assets/compare-table.png" width="150%">
+                        <p class="has-text-centered">
+                            Qualitative examples: InfEdit vs prior methods. InfEdit attains editing goals with the best consistency with source images.
+                        </p>
+                    </div>
+                    <div class="content has-text-justified">
+                        <h4>
+                            Comparison with existing methods:
+                        </h4>
+                    </div>
+                    <div class="content has-text-centered">
+                        <img src="./image_assets/compare-edit_00.png" width="150%">
+                        <p class="has-text-centered">
+                            Qualitative examples: InfEdit vs prior methods. InfEdit attains editing goals with the best consistency with source images.
+                        </p>
+                        <span class="link-block">
               <a href="./compare.html" class="external-link button is-normal is-rounded is-dark">
                 <span>More Results</span>
-              </a>
-            </span>
-          </div>
+                        </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- /style -->
+            <!-- /footnote -->
         </div>
-      </div>
-      <!-- /style -->
-      <hr>
-      <!-- footnote -->
-      <!-- <h2 class="title is-4 has-text-centered">Footnote provides supplementary descriptions, enabling complex text
-        prompts </h2>
-      <div class="content has-text-centered">
-        <img src="./image_assets/footnote_tri.png" width="150%">
-      </div>
-      <div class="content has-text-justified">
-        <h4>
-          Comparison with existing methods:
-        </h4>
-      </div>
-      <ul class="nav nav-pills nav-justified" id="prompt-view-ul" style="width: 100%;margin-bottom: 0.5em;">
-        <li style="font-size: 0.9em;" class="active"><a href="javascript: void(0);"
-            onclick="ChangePrompt(0);">Livingroom</a>
-        </li>
-        <li style="font-size: 0.9em;" class=""><a href="javascript: void(0);" onclick="ChangePrompt(1);">Cityscape</a>
-        </li>
-      </ul>
-      <ul class="nav nav-pills nav-justified" id="method-view-ul" style="width: 100%">
-        <li style="font-size: 0.9em;" class="active"><a href="javascript: void(0);" onclick="ChangeMethod(0);">Ours</a>
-        </li>
-        <li style="font-size: 0.9em;" class=""><a href="javascript: void(0);" onclick="ChangeMethod(1);">Stable
-            Diffusion [4] (Source)</a></li>
-        <li style="font-size: 0.9em;" class=""><a href="javascript: void(0);" onclick="ChangeMethod(2);">Stable
-            Diffusion [4] (Full-Text)</a></li>
-        <li style="font-size: 0.9em;" class=""><a href="javascript: void(0);"
-            onclick="ChangeMethod(3);">Attend-and-Excite
-            [3]</a></li>
-        <li style="font-size: 0.9em;" class=""><a href="javascript: void(0);" onclick="ChangeMethod(4);">InstructPix2Pix
-            [2]</a></li>
-        <li style="font-size: 0.9em;" class=""><a href="javascript: void(0);"
-            onclick="ChangeMethod(5);">Prompt-to-Prompt
-            [1]</a></li>
-      </ul>
-      <div class="columns is-centered" id="div_cityscape" style="display: none;">
-        <div class="column">
-          <div class="has-text-justified">
-            <p>
-              <span style="font-size:1.25em;">A car<sup><span style="color:red">1</span></sup> driving on the
-                road. A bicycle<sup><span style="color:rgb(36, 192, 240)">2</span></sup> nearby a tree<sup><span
-                    style="color:green">3</span></sup>. A cityscape<sup><span
-                    style="color:rgb(238, 238, 62)">4</span></sup> in the background.<br><br></span>
-              <span style="font-size:1.1em;"><sup><span style="color:red">1</span></sup>A sleek sports car gleams on the
-                road in the sunlight, with its aerodynamic curves and polished finish catching the light.</span><br>
-              <span style="font-size:1.1em;"><sup><span style="color:rgb(36, 192, 240)">2</span></sup>A bicycle with
-                rusted frame and worn tires.</span><br>
-              <span style="font-size:1.1em;"><sup><span style="color:green">3</span></sup>A dead tree with a few red
-                apples on it.</span><br>
-              <span style="font-size:1.1em;"><sup><span style="color:rgb(238, 238, 62)">4</span></sup>A bustling
-                Hongkong cityscape with towering skyscrapers.</span>
-            </p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content has-text-centered">
-            <img src="./image_assets/footnote/cityscape/cityscape_ours.jpg" id="image_cityscape" width="99%">
-          </div>
-        </div>
-      </div>
-      <div class="columns is-centered" id="div_livingroom" style="display: true;">
-        <div class="column">
-          <div class="has-text-justified">
-            <p>
-              <span style="font-size:1.25em;">A coffee table<sup><span style="color:red">1</span></sup> sits in front of
-                a sofa<sup><span style="color:rgb(36, 192, 240)">2</span></sup> on a cozy carpet. A painting<sup><span
-                    style="color:green">3</span></sup> on the wall. cinematic lighting, trending on artstation, 4k,
-                hyperrealistic, focused, extreme details. <br><br></span>
-              <span style="font-size:1.1em;"><sup><span style="color:red">1</span></sup>A rustic wooden coffee table
-                adorned with scented candles and many books.</span><br>
-              <span style="font-size:1.1em;"><sup><span style="color:rgb(36, 192, 240)">2</span></sup>A plush sofa with
-                a soft blanket and colorful pillows on it. </span><br>
-              <span style="font-size:1.1em;"><sup><span style="color:green">3</span></sup>A painting of wheat field
-                with a cottage in the distance, close up shot, trending on artstation, cgsociety, hd, calm,
-                complimentary colours, realistic lighting, by Albert Bierstadt, Frederic Edwin Church.</span><br>
-            </p>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content has-text-centered">
-            <img src="./image_assets/footnote/livingroom/livingroom_ours.jpg" id="image_livingroom" width="99%">
-          </div>
-        </div>
-      </div> -->
-      <!-- /footnote -->
-    </div>
-  </section>
+    </section>
 
-  <!-- Method & Workflow -->
-  <section class="hero is-light">
-    <div class="hero-body">
-      <div class="container is-max-desktop has-text-centered">
-        <h2 class="title is-3">Method</h2>
-        <div class="has-text-justified">
-          <!-- <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
+    <!-- Method & Workflow -->
+    <section class="hero is-light">
+        <div class="hero-body">
+            <h2 class="title is-3 has-text-centered">Method</h2>
+            <div class="container is-max-desktop has-text-centered">
+                <div class="has-text-justified">
+                    <!-- <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
             <source src="./video_assets/framework.mp4" type="video/mp4">
           </video> -->
-        </div>
-        <div class="content has-text-justified">
-          <p>
-            Existing inversion-based editing methods are limited for real-time and real-world language-driven image editing applications, and DDCM offers an alternative to address these limitations, introducing an Inversion-Free Image Editing (InfEdit) method.
-            InfEdit starts from a random terminal noise <i>z<sup>src</sup><sub>&tau;<sub>1</sub></sub> = z<sup>tgt</sup><sub>&tau;<sub>1</sub></sub> &sim; N(0, I)</i>.
-            The source branch follows the DDCM sampling process without explicit inversion, and we directly compute the distance &Delta;&epsilon;<sup>cons</sup> between &epsilon;<sup>cons</sup> the &epsilon;<sub>&theta;</sub><sup>src</sup> (the predicted noise to reconstruct a z<sub>0</sub><sup>src</sup>).
-            For the target branch, we first compute the &epsilon;<sub>&theta;</sub><sup>tgt</sup> to predict z<sub>0</sub><sup>tgt</sup>, and then calibrate the predicted target initial with the same &Delta;&epsilon;<sup>cons</sup>.<br>
-          </p>
-        </div>        
-        
-        <span class="link-block">
+                </div>
+                <div class="content has-text-justified">
+                    <p>
+                        We make an attempt to eliminate the inversion process and introduce Denoising Diffusion Consistent Model (DDCM), a sampling strategy that enables virtual inversion. 
+                        DDCM leverages a diffusion process that significantly enhances consistency throughout the image generation phases, ensuring fidelity and speed in transforming and refining visual content. 
+                    </p>
+                </div>
+                <div class="content has-text-centered" style="display: flex; justify-content: center; align-items: center;">
+                    <div style="width: 45%; margin-right: 5%;">
+                        <img src="./image_assets/method/ddcm_tiny.png" style="width: 100%; margin-bottom: 7%;">
+                        <img src="./image_assets/method/algo1.png" style="width: 100%;"> 
+                    </div>
+                    <div style="width: 45%;">
+                        <img src="./image_assets/method/algo2.png" style="width: 100%;">
+                    </div>
+                </div>
+                
+                <div class="content has-text-justified">
+                    <p>
+                        We also present Unified Attention Control (UAC) for tuning-free image editing through natural language that integrates cross-attention and self-attention control within a unified framework. 
+                    </p>
+                </div>
+
+                <div class="content has-text-centered">
+                    <img src="./image_assets/method/UAC.png" style="width: 60%; margin-right: 5%"> <img src="./image_assets/method/algo3.png" width="30%">
+                </div>
+                <span class="link-block">
           <a href="./method.html" class="external-link button is-normal is-rounded is-dark">
             <span>Detail</span>
-          </a>
-        </span>
-        <!-- <hr>
+                </a>
+                </span>
+                <!-- <hr>
         <h2 class="title is-3">Example Workflow with our Framework</h2>
         <div class="has-text-justified">
           <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
@@ -514,129 +414,83 @@
           </video>
         </div>
         Our framework can naturally be integrated into a rich text editor, enabling a tight, streamlined UI. -->
-      </div>
-    </div>
-  </section>
-  <!--/ Method & Workflow -->
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <div class="container is-max-desktop">
-            <div class="columns is-centered">
-              <div class="column is-full-width">
-                <h2 class="title is-3 has-text-centered">References</h2>
-                <div class="content has-text-justified">
-                  <p>
-                  <!-- </p>
-                  [1] Amir Hertz, Ron Mokady, Jay Tenenbaum, Kfir Aberman, Yael Pritch, and Daniel Cohen-Or. <a
-                    href="https://arxiv.org/abs/2208.01626">Prompt-to-prompt image editing with cross attention
-                    control.</a> arXiv:2208.01626, 2022.<br>
-                  [2] Tim Brooks, Aleksander Holynski, and Alexei A Efros. <a
-                    href="https://arxiv.org/abs/2211.09800">Instructpix2pix: Learning to follow image editing
-                    instructions.</a> CVPR, 2023<br>
-                  [3] Hila Chefer, Yuval Alaluf, Yael Vinker, Lior Wolf, and Daniel Cohen-Or. <a
-                    href="https://arxiv.org/abs/2301.13826">Attend-and-excite: Attention-based semantic guidance for
-                    text-to-image diffusion models.</a>arXiv preprint arXiv:2301.13826, 2023.<br>
-                  [4] Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer. <a
-                    href="https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html6">High-resolution
-                    image synthesis with latent diffusion models.</a>CVPR, 2022<br>
-                  <p></p> -->
-                </div>
-                <!-- Prompt Interpolation image -->
-              </div>
             </div>
-
-            <!-- Acknowledgements. -->
-            <!-- <div class="columns is-centered">
-              <div class="column is-full-width">
-                <h2 class="title is-3 has-text-centered">Acknowledgment</h2>
-                <div class="content has-text-justified">
-                  <p>
-                    placeholder
-                  </p>
-                </div>
-              </div>
-            </div> -->
-            <!--/ Acknowledgements. -->
-
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title"><a id="bibtex">BibTeX</a></h2>
-      <pre><code>@</code></pre>
-    </div>
-  </section>
+    </section>
+    <!--/ Method & Workflow -->
+
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title"><a id="bibtex">BibTeX</a></h2>
+            <pre><code>@ TO BE UPDATED</code></pre>
+        </div>
+    </section>
 
 
-  <footer class="footer">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+    <footer class="footer">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
               Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            Website adapted from the following <a href="https://github.com/nerfies/nerfies.github.io">source code</a>.
-          </p>
+                    </p>
+                    <p>
+                        Website adapted from the following <a href="https://github.com/nerfies/nerfies.github.io">source code</a>.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-  </footer>
+    </footer>
 
 
-  <script type="text/javascript">
-    var currentMethodList = ['ours', 'plain', 'full', 'aae', 'ip2p', 'p2p'];
-    var currentMethod = "ours";
+    <script type="text/javascript">
+        var currentMethodList = ['ours', 'plain', 'full', 'aae', 'ip2p', 'p2p'];
+        var currentMethod = "ours";
 
-    function ChangeMethod(idx) {
-      var li_list = document.getElementById("method-view-ul").children;
-      for (i = 0; i < li_list.length; i++) {
-        li_list[i].className = "nav-link";
-      }
-      li_list[idx].className = "nav-link active";
-      currentMethod = currentMethodList[idx];
+        function ChangeMethod(idx) {
+            var li_list = document.getElementById("method-view-ul").children;
+            for (i = 0; i < li_list.length; i++) {
+                li_list[i].className = "nav-link";
+            }
+            li_list[idx].className = "nav-link active";
+            currentMethod = currentMethodList[idx];
 
-      var image_livingroom = document.getElementById('image_livingroom');
-      var image_cityscape = document.getElementById('image_cityscape');
-      image_livingroom.src = "./image_assets/footnote/livingroom/livingroom_" + currentMethod + ".jpg";
-      image_cityscape.src = "./image_assets/footnote/cityscape/cityscape_" + currentMethod + ".jpg";
-    }
-    function ChangePrompt(idx) {
-      var li_list = document.getElementById("prompt-view-ul").children;
-      for (i = 0; i < li_list.length; i++) {
-        li_list[i].className = "nav-link";
-      }
-      li_list[idx].className = "nav-link active";
-      var div_livingroom = document.getElementById('div_livingroom');
-      var div_cityscape = document.getElementById('div_cityscape');
-      if (idx == 0) {
-        div_livingroom.style.display = "";
-        div_cityscape.style.display = "none";
-      } else {
-        div_livingroom.style.display = "none";
-        div_cityscape.style.display = "";
-      }
-    }
-  </script>
+            var image_livingroom = document.getElementById('image_livingroom');
+            var image_cityscape = document.getElementById('image_cityscape');
+            image_livingroom.src = "./image_assets/footnote/livingroom/livingroom_" + currentMethod + ".jpg";
+            image_cityscape.src = "./image_assets/footnote/cityscape/cityscape_" + currentMethod + ".jpg";
+        }
 
-  <script src="./assets/js/juxtapose.js"></script>
-  <script src="./assets/js/popper.min.js"></script>
-  <script src="./assets/js/jquery.min.js"></script>
-  <script src="./assets/js/bootstrap.min.js"></script>
-  <script defer="" src="./assets/js/fontawesome.all.min.js"></script>
-  <script src="./assets/js/bulma-carousel.min.js"></script>
-  <script src="./assets/js/bulma-slider.min.js"></script>
-  <script src="./assets/js/magnifier.js"></script>
+        function ChangePrompt(idx) {
+            var li_list = document.getElementById("prompt-view-ul").children;
+            for (i = 0; i < li_list.length; i++) {
+                li_list[i].className = "nav-link";
+            }
+            li_list[idx].className = "nav-link active";
+            var div_livingroom = document.getElementById('div_livingroom');
+            var div_cityscape = document.getElementById('div_cityscape');
+            if (idx == 0) {
+                div_livingroom.style.display = "";
+                div_cityscape.style.display = "none";
+            } else {
+                div_livingroom.style.display = "none";
+                div_cityscape.style.display = "";
+            }
+        }
+    </script>
 
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+    <script src="./assets/js/juxtapose.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script defer="" src="./assets/js/fontawesome.all.min.js"></script>
+    <script src="./assets/js/bulma-carousel.min.js"></script>
+    <script src="./assets/js/bulma-slider.min.js"></script>
+    <script src="./assets/js/magnifier.js"></script>
+
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>
